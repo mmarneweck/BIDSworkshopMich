@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Set your Talapas user group
 group = "motorskill"
-partition = "ctn" # ignored if running locally
+partition = "short" # ignored if running locally
 singularity_image = "dcm2bids_2021-01-13.sif" # ignored if running locally; dcm2bids singularity image name
 config_file = "study_config.json"
 
